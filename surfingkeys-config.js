@@ -1,32 +1,29 @@
 settings.theme = `
 .sk_theme {
-	background: #100a14dd;
-	color: #4f97d7;
+	background: #282828;
+	color: #ebdbb2;
 }
 .sk_theme tbody {
-	color: #292d;
+	color: #b8bb26;
 }
 .sk_theme input {
 	color: #d9dce0;
 }
 .sk_theme .url {
-	color: #2d9574;
+	color: #98971a;
 }
 .sk_theme .annotation {
-	color: #a31db1;
+	color: #b16286;
 }
 .sk_theme .omnibar_highlight {
 	color: #333;
-	background: #ffff00aa;
+	background: #ebdbb2;
 }
-.sk_theme #sk_omnibarSearchResult ul li:nth-child(odd) {
-	background: #5d4d7a55;
+.sk_theme #sk_omnibarSearchResult ul>li:nth-child(odd) {
+	background: #282828;
 }
-.sk_theme #sk_omnibarSearchResult ul li.focused {
-	background: #5d4d7aaa;
-}
-.sk_theme #sk_omnibarSearchResult .omnibar_folder {
-	color: #a31db1;
+.sk_theme #sk_omnibarSearchResult ul>li.focused {
+	background: #d3869b;
 }
 `;
 
