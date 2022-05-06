@@ -1,29 +1,38 @@
 settings.theme = `
 .sk_theme {
-	background: #282828;
-	color: #ebdbb2;
+	background: #2e2f37;
+	color: #d3d9e3;
 }
 .sk_theme tbody {
-	color: #b8bb26;
+	color: #ff368f;
 }
 .sk_theme input {
 	color: #d9dce0;
 }
 .sk_theme .url {
-	color: #98971a;
+	color: #999999;
 }
 .sk_theme .annotation {
-	color: #b16286;
+	color: #d3d9e3;
 }
 .sk_theme .omnibar_highlight {
-	color: #333;
-	background: #ebdbb2;
+	color: #2e2f37;
+	background: #d3d9e3;
 }
 .sk_theme #sk_omnibarSearchResult ul>li:nth-child(odd) {
-	background: #282828;
+	background: #2e2f37;
 }
 .sk_theme #sk_omnibarSearchResult ul>li.focused {
-	background: #d3869b;
+	background: #ff368f;
 }
+.sk_theme .feature_name {
+    color: #ff368f;
+}
+.sk_theme .separator {
+    color: #ff368f;
+}
+
+
+
 `;
 
