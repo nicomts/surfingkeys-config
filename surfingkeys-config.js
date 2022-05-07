@@ -1,3 +1,10 @@
+api.addSearchAlias('l', 'Mercado Libre', 'https://listado.mercadolibre.com.ar/?q=', 's', 'https://listado.mercadolibre.com.ar/?q=', function(response) {
+    var res = JSON.parse(response.text);
+    return res.map(function(r){
+        return r.phrase;
+    });
+});
+
 settings.theme = `
 .sk_theme {
 	background: #2e2f37;
